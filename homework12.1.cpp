@@ -13,9 +13,8 @@ int main()
 		std::string strIfile{""};
 		while (iFile >> strIfile)
 		{
-			iFile >> strIfile;
 			std::cout << strIfile << '\n';
-	    }
+	        }  
 		iFile.close();
 		return EXIT_SUCCESS;
 	}
