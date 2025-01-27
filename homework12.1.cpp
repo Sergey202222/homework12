@@ -11,7 +11,7 @@ int main()
 	if (iFile.is_open())
 	{
 		std::string strIfile{""};
-		while (!iFile.eof())
+		while (iFile >> strIfile)
 		{
 			iFile >> strIfile;
 			std::cout << strIfile << '\n';
